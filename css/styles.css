@@ -3,3 +3,63 @@
 	border: 1px solid rgba(86, 61, 124, .2);
 	padding: 10px;
 }
+
+@media (min-width: 1200px) {
+  .full-lg {
+    display: block;
+  }
+  .full-md {
+  	display: none;
+  }
+  .full-sm{
+  	display: none;
+  }
+  .full-xs{
+  	display: none;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+	.full-lg {
+    display: none;
+  }
+  .full-md {
+  	display: block;
+  }
+  .full-sm{
+  	display: none;
+  }
+  .full-xs{
+  	display: none;
+  }
+}
+
+@media (min-width: 768px)and (max-width: 991px){
+	.full-lg {
+    display: none;
+  }
+  .full-md {
+  	display: none;
+  }
+  .full-sm{
+  	display: block;
+  }
+  .full-xs{
+  	display: none;
+  }
+}
+
+@media (max-width: 767px){
+	.full-lg {
+    display: none;
+  }
+  .full-md {
+  	display: none;
+  }
+  .full-sm{
+  	display: none;
+  }
+  .full-xs{
+  	display: block;
+  }
+}
